@@ -6,23 +6,25 @@ export default function navbar() {
   return (
     <div className="container">
       <div className="content">
-        {logo}
-   
-      </div>
       <header>
 				<nav className="">
+                <div className="box">
+						<img src={logo} alt="logo"/>
+					</div>
 					<div>
-						<a href="#">WOMEN</a>
-						<a href="#">MEN</a>
-						<a href="#">KIDS</a>
-						<a className="o" href="#"></a>
+						<a href="#">Features</a>
+						<a href="#">Pricing</a>
+						<a href="#">Resources</a>
+					
 					</div>
-					<div className="box">
-						<img src={logo} alt="" srcset="" />
-					</div>
+					<div>
+                    <a href="#">Login</a>
+                    <a href="#">Sign Up</a>
+                    </div>
 
 				</nav>
 			</header>
+    </div>
     </div>
   );
 }
