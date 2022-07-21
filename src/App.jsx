@@ -2,6 +2,7 @@ import React from "react";
 
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Searchbar from "./components/Searchbar";
 import "./styles.scss";
 
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
     <Navbar />
     <Hero />
+    <Searchbar />
   </div>
   );
 }
