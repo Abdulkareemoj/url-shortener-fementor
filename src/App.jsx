@@ -1,13 +1,15 @@
 import React from "react";
 
-import navbar from "./components/navbar";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 import "./styles.scss";
 
 
 function App() {
   return (
     <div className="App">
-    <navbar />
+    <Navbar />
+    <Hero />
   </div>
   );
 }
