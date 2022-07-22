@@ -7,7 +7,7 @@ export default function navbar() {
   
         <div className="main">
           <div className="search">
-            <input type="text" placeholder="Search a blog" />
+            <input type="text" placeholder="Suorten a link here..." />
           </div>
           <p>Shorten it!</p>
         </div>
