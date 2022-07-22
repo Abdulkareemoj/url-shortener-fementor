@@ -58,15 +58,15 @@ a:hover {
 	margin: 0 auto;
 
 	&pall {
-		// padding-top: 4.375rem;
+		padding-top: 4.375rem;
 		padding-right: 5rem;
-		// padding-bottom: 4.375rem;
+		padding-bottom: 4.375rem;
 		padding-left: 5rem;
 
-		// @include divisions-up(large) {
-		// 	padding-top: 6rem;
-		// 	padding-bottom: 6rem;
-		// }
+	// 	@include divisions-up(large) {
+	// 		padding-top: 6rem;
+	// 		padding-bottom: 6rem;
+	// 	}
 	}
 }
 .flex {
@@ -83,14 +83,8 @@ a:hover {
 	}
 	
 }
-.ra{
-display: flex;
-align-items:center;
-justify-content: flex-end;
-}
 
-.box {
-	padding-right: 5rem;}
+
 // Buttons
 button,
 .button {

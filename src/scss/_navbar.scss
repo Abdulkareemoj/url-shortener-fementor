@@ -1,9 +1,18 @@
 .header {
-	position: relative;
-	z-index: 1;
+	// position: relative;
+	// z-index: 1;
 
-	nav {
+    nav {
 		position: relative;
+		// background-color: $white;
+		padding-top: 1.0625rem;
+		padding-bottom: 1.0625rem;
+	}
+	&logo {
+		img {
+			width: 8.8125rem;
+			height: 1.375rem;
+		}
 	}
 
 	&links {
@@ -21,9 +30,9 @@
 				left: 0;
 				right: 0;
 				bottom: -30px;
-				background: #53da7c;
-				opacity: 0;
-				transition: opacity 250ms ease-in-out;
+				// background: #53da7c;
+				// opacity: 0;
+				// transition: opacity 250ms ease-in-out;
 			}
 
 			&:hover {

@@ -4,28 +4,23 @@ import logo from '../images/logo.svg';
 
 export default function navbar() {
   return (
-    <div className="container">
-      <div className="content">
-      <header>
-				<nav className="">
-                <div className="">
-						<img src={logo} alt="logo"/>
-					</div>
-					<div className="">
+      <header className="container containerpall flex-sb flex-c flex-ai">
+				<nav className="header">
+                <div className="headerlinks">
+                <img className="headerlogo"src={logo} alt="logo"/>
+					
 						<a href="#">Features</a>
 						<a href="#">Pricing</a>
 						<a href="#">Resources</a>
-					
-					</div>
-					<div className="">
+                       
                     <a href="#">Login</a>
-                    <a href="#">Sign Up</a>
+                    <a href="#" className="button">Sign Up</a>
                     </div>
-
-				</nav>
+					
+					
+    	</nav>
 			</header>
-    </div>
-    </div>
+          
   );
 }
 
