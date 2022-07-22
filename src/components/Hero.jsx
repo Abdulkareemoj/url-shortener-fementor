@@ -1,22 +1,31 @@
 import React from "react";
 
+import image from "../images/illustration-working.svg";
 
 export default function navbar() {
   return (
   
 
-<section class="hero">
-<div class="container">
-  <div class="heroimage"></div>
+<section className="hero">
+<div className="container">
 
-  <div class="herotext containerpall">
-  <h1>More than just shorter links</h1> 
+  <div className="containerpall flex">
+
+    <div>
+  <h1 className ="herotext">More than just shorter links</h1> 
     <p>
     Build your brand’s recognition and get detailed insights 
 on how your links are performing.
     </p>
-    <a href="#" class="button cta">Get Started</a>
+    <a href="#" className="button">Get Started</a>
+   </div>
+
+    <div>
+    <img src={image} alt="illustration-working" />
+    </div> 
+
   </div>
+ 
 </div>
 </section>
   );
