@@ -8,16 +8,16 @@ export default function navbar() {
       <div className="content">
       <header>
 				<nav className="">
-                <div className="box">
+                <div className="">
 						<img src={logo} alt="logo"/>
 					</div>
-					<div>
+					<div className="">
 						<a href="#">Features</a>
 						<a href="#">Pricing</a>
 						<a href="#">Resources</a>
 					
 					</div>
-					<div>
+					<div className="">
                     <a href="#">Login</a>
                     <a href="#">Sign Up</a>
                     </div>
