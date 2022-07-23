@@ -3,7 +3,7 @@ import React from "react";
 
 import image from "../images/illustration-working.svg";
 
-export default function navbar() {
+export default function Hero() {
   return (
   
 

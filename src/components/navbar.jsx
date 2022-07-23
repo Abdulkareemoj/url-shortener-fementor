@@ -3,7 +3,7 @@ import React from 'react';
 
 import logo from '../images/logo.svg';
 
-export default function navbar() {
+export default function Navbar() {
     return (
         <header >
             <nav className="containerpall container ">

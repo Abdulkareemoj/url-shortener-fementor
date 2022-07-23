@@ -2,7 +2,7 @@ import React from "react";
 
 import bg from "../images/bg-shorten-desktop.svg";
 
-export default function navbar() {
+export default function Searchbar() {
   return (
   <section className="container containerpall">
         <div className="main">

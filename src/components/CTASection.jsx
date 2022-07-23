@@ -1,3 +1,11 @@
-Boost your links today
+import React from 'react';
 
-Get Started
+export default function CTASection(){
+  return (
+    <div>CTASection</div>
+// Boost your links today
+
+// Get Started
+  );
+}
+

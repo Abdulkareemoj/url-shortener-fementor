@@ -6,7 +6,7 @@ import fullycus from "../images/icon-fully-customizable.svg";
 
 
 
-export default function navbar() {
+export default function Features() {
   return (
    
 <section className="feature">
