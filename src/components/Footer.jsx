@@ -2,10 +2,10 @@
 import React from 'react';
 
 
-import Facebook from "../images/icon-facebook.svg";
-import Instagram from "../images/icon-instagram.svg";
-import Pinterest from "../images/icon-pinterest.svg";
-import Twitter from "../images/icon-twitter.svg";
+import Facebook from '../images/icon-facebook.svg';
+import Instagram from '../images/icon-instagram.svg';
+import Pinterest from '../images/icon-pinterest.svg';
+import Twitter from '../images/icon-twitter.svg';
 import logo from '../images/logo.svg';
 
 export default function Footer() {
@@ -26,7 +26,7 @@ export default function Footer() {
 
 
 <div className="footerlinks1">
-<a href="#">Featuress</a>
+<a href="#">Features</a>
 <a href="#">Link Shortening</a>
 <a href="#">Branded Links</a>
 <a href="#">Analytics</a>
