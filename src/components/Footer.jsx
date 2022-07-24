@@ -11,18 +11,13 @@ import logo from '../images/logo.svg';
 export default function Footer() {
   return (
     
-  <footer className="footer">
+  <footer className="footer" >
   <div className="container">
-      <a className="footerlogo" href="#">
+    <div><a className="footerlogo" href="#">
       <img src={logo} alt="logo" />
-        </a>
+        </a></div>  
 
-        <div className="footersocial">
-<img src={Facebook} alt="fb"/>
-<img src={Twitter} alt="tw"/>
-<img src={Pinterest} alt="pt" />
-<img src={Instagram} alt="ig"/>
-</div>
+
 
 <div className="footerlinks1">
 <a href="#">Features</a>
@@ -46,12 +41,15 @@ export default function Footer() {
 <a href="#">Contact</a>
 </div>
 
-
-
-
-
-<div className="footercopyright">  &copy; Easybank. All Rights Reserved 
+<div className="footersocial">
+<img src={Facebook} alt="fb"/>
+<img src={Twitter} alt="tw"/>
+<img src={Pinterest} alt="pt" />
+<img src={Instagram} alt="ig"/>
 </div>
+
+
+</div><div className="footercopyright">  &copy; Easybank. All Rights Reserved 
 </div>
 <div className="attribution">
   Challenge by

@@ -1,6 +1,6 @@
 .footer {
 	background-color: $darkBlue;
-	color: $white;
+	color: $gray;
 	padding: 2.5rem;
 	text-align: center;
 
@@ -18,12 +18,11 @@
 	// }
 
 	a {
-		color: $white;
+		color: $gray;
 	}
 
 	&logo {
 		display: inline-block;
-
 		// @include divisions-down(medium) {
 		// 	margin-bottom: 1.875rem;
 		// }
@@ -66,6 +65,7 @@
 		flex-direction: column;
 		align-items: center;
 		font-size: 0.9375rem;
+		color: $gray;
 
 		// @include divisions-up(large) {
 		// 	justify-content: space-between;
@@ -103,11 +103,10 @@
 		// 		margin-bottom: 1.875rem;
 		// 	}
 		// }
-	}
-
-	&copyright {
+		
+	&coypyright {
 		font-size: 0.8125rem;
-		color: $grayishBlue;
+		// color: $grayishBlue;
 
 		// @include divisions-up(large) {
 		// 	grid-area: copyright;
@@ -115,6 +114,8 @@
 		// 	justify-self: end;
 		// }
 	}
+	}
+
 
 	.attribution {
 		margin-top: 4rem;

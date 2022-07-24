@@ -1,6 +1,7 @@
 import React from "react";
 
 import CTASection from "./components/CTASection";
+import Features from './components/Features';
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -14,6 +15,7 @@ function App() {
     <Navbar />
     <Hero />
     <Searchbar />
+    <Features />
     <CTASection />
     <Footer />
   </div>

@@ -81,6 +81,9 @@ a:hover {
 	&-ai {
 		align-items: center;
 	}
+	&-dc{
+		flex-direction: column-reverse;
+	}
 
 }
 
