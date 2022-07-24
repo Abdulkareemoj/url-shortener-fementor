@@ -13,28 +13,28 @@ export default function Features() {
     <div className="feature container containerpall">
     <div className="featureintro">
         <h2>Advanced Statistics</h2>
-<p>We leverage Open Banking to turn your bank account into your financial hub. Control 
-  your finances like never before.
-</p>
-
-  Track how your links are performing across the web with our 
-  advanced statistics dashboard.
-
-  Brand Recognition
-
-  Boost your brand recognition with each click. Generic links don’t 
+        <div><h2>Brand Recognition</h2>
+<p> Boost your brand recognition with each click. Generic links don’t 
   mean a thing. Branded links help instil confidence in your content.
-
-  Detailed Records
-
-  Gain insights into who is clicking your links. Knowing when and where 
+</p></div>
+<div><h2>Detailed Records</h2>
+<p> Gain insights into who is clicking your links. Knowing when and where 
   people engage with your content helps inform better decisions.
-
-  Fully Customizable
-
-  Improve brand awareness and content discoverability through customizable 
+</p></div>
+<div><h2>Fully Customizable</h2>
+<p> Improve brand awareness and content discoverability through customizable 
   links, supercharging audience engagement.
+</p></div>
+
+  
 </div>
+ 
+  
+
+ 
+  
+
+ 
 </div>  </section>
   );
 }

@@ -85,16 +85,21 @@ a:hover {
 }
 
 
-
-// Buttons
+Buttons
 button,
 .button {
 	position: relative;
 	display: inline-block;
 	padding: 0.875rem 2.1875rem;
+	background-image: $Cyan;
 	border: 0;
 	border-radius: 50px;
 	cursor: pointer;
+	// color: $white;
+	font-weight: 400;
+	font-size: $fontsize;
+	transition: opacity 300ms ease-in-out;
+	overflow: hidden;
 
 	&::before {
 		content: "";

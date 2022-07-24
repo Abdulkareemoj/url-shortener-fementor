@@ -18,12 +18,11 @@ export default function Footer() {
         </a>
 
         <div className="footersocial">
-{Facebook}
-{Twitter}
-{Pinterest}
-{Instagram}
+<img src={Facebook} alt="fb"/>
+<img src={Twitter} alt="tw"/>
+<img src={Pinterest} alt="pt" />
+<img src={Instagram} alt="ig"/>
 </div>
-
 
 <div className="footerlinks1">
 <a href="#">Features</a>
