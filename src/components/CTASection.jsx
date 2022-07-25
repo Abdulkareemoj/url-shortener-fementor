@@ -6,9 +6,9 @@ import React from 'react';
 export default function CTASection() {
   return (
   <section className="container">
-        <div className="main">
+        <div className="maincta">
             
-<h1>Boost your links today</h1>
+<h1 className="mainctatext">Boost your links today</h1>
 
 <a href="#"className="button formobile">Get Started</a>
 </div>
