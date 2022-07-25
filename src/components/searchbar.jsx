@@ -1,12 +1,10 @@
 import React from "react";
 
-import bg from "../images/bg-shorten-desktop.svg";
 
 export default function Searchbar() {
   return (
   <section className="container containerpall">
         <div className="main">
-            <img src={bg} alt=""/>
           <div className="search">
             <input type="text" placeholder="Shorten a link here..." />
           
