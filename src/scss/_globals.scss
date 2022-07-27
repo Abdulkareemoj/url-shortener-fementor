@@ -79,7 +79,7 @@ a:hover {
 		justify-content: center;
 	}
 	&-ai {
-		align-items: center;
+		align-items: baseline;
 	}
 	&-dc{
 		flex-direction: column-reverse;
@@ -88,19 +88,20 @@ a:hover {
 }
 
 
-Buttons
+// Buttons
 button,
 .button {
 	position: relative;
 	display: inline-block;
 	padding: 0.875rem 2.1875rem;
-	background-image: $Cyan;
+	background-color: $Cyan;
 	border: 0;
 	border-radius: 50px;
 	cursor: pointer;
 	// color: $white;
-	font-weight: 400;
+	font-weight: $weights;
 	font-size: $fontsize;
+	font-family: $family;
 	transition: opacity 300ms ease-in-out;
 	overflow: hidden;
 

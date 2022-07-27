@@ -5,7 +5,7 @@ import React from 'react';
 
 export default function CTASection() {
   return (
-  <section className="container">
+  <section className="container flex-ai">
         <div className="maincta">
             
 <h1 className="mainctatext">Boost your links today</h1>

@@ -9,8 +9,8 @@
 	// }
 
 	&text {
-		text-align: center;
-		// font-size: 5rem;
+	
+
 font-family: $family;
 font-weight: $weights;
 		// @include divisions-up(large) {
@@ -18,5 +18,11 @@ font-weight: $weights;
 		// 	order: 1;
 		// 	text-align: left;
 		// }
+	}
+	h1{
+		font-size: 3.5rem;
+	}
+	p{
+		color: $grayishViolet;
 	}
 }

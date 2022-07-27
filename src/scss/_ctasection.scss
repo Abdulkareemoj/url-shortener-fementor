@@ -1,5 +1,7 @@
 .maincta{
-    background-image: url("../images/bg-shorten-desktop.svg");
+   
+    text-align: center;
+     background-image: url("../images/bg-shorten-desktop.svg");
 }
 
 	// .container {
@@ -10,7 +12,7 @@
 	// }
 
 	&text {
-		text-align: justify;
+		
 		// font-size: 5rem;
 font-family: $family;
 font-weight: $weights;

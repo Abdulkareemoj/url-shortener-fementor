@@ -7,14 +7,14 @@ export default function Hero() {
   return (
   
 
-<section className="hero">
+<section className="feature">
 <div className="container">
 
   <div className="containerpall flex">
 
     <div>
   <h1 className ="herotext">More than just shorter links</h1> 
-    <p>
+    <p  className ="herotext">
     Build your brand’s recognition and get detailed insights 
 on how your links are performing.
     </p>
