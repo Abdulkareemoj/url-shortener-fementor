@@ -11,8 +11,9 @@ public
 .vscode/.extensions.json
 .editorconfig
 pnpm-lock.yaml
-postcss.config.js
+
 .stylelintrc.json
 .gitignore
 .eslintrc.json
 .prettierrc.json
+scss
