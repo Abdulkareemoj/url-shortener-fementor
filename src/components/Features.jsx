@@ -7,7 +7,7 @@ import fullycus from '../images/icon-fully-customizable.svg';
 export default function Features() {
   return (
     <section className="feature">
-      <div className="feature containerpall ">
+      <div className="pr-20 pl-20 px-20 py-20">
         <div className="featureintro">
           <h2>Advanced Statistics</h2>
           <div>

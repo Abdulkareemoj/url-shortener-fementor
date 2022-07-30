@@ -7,13 +7,13 @@ export default function Hero() {
   return (
   
 
-<section className="feature">
-<div className="container">
+<section className="pr-20 pl-20 px-20 py-20">
+<div className="">
 
-  <div className="containerpall flex">
+  <div className="flex">
 
     <div>
-  <h1 className ="herotext">More than just shorter links</h1> 
+  <h1 className ="text-xl">More than just shorter links</h1> 
     <p  className ="herotext">
     Build your brand’s recognition and get detailed insights 
 on how your links are performing.
