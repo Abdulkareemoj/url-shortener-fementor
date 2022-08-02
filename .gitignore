@@ -6,6 +6,7 @@ yarn-error.log*
 pnpm-debug.log*
 node_modules
 dist
+scss
 public
 .vscode/.settings.json
 .vscode/.extensions.json
@@ -16,4 +17,3 @@ pnpm-lock.yaml
 .gitignore
 .eslintrc.json
 .prettierrc.json
-scss
