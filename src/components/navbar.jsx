@@ -8,7 +8,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="header max-widthpr-20 pl-20 px-20 py-20">
+        <header className="header max-width py-5">
           <div className="flex items-center justify-between">
             <article className="flex items-center">
               <img src={logo} alt="" />
