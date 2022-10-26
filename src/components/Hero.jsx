@@ -14,9 +14,9 @@ export default function Hero() {
             <h1 className="text-5xl lg:text-6xl mb-5 font-bold text-slate-800">
               More than just shorter links
             </h1>
-            <p className="lg:text-lg text-slate-400 mb-10">
-              Build your brand’s recognition and get detailed insights on how
-              your links are performing.
+            <p className="lg:text-xl text-slate-400 mb-10">
+              Build your brand’s recognition and get detailed 
+              insights on how your links are performing.
             </p>
             <button className="btn-cta rounded-full">Get Started</button>
           </article>

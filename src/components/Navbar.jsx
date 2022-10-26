@@ -8,7 +8,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="header max-width py-5">
+        <header className="header max-width py-10">
           <div className="flex items-center justify-between">
             <article className="flex items-center">
               <img src={logo} alt="" />
@@ -16,13 +16,13 @@ export default function Navbar() {
               <nav className="hidden md:block md:ml-5">
                 <ul className="flex items-start justify-start">
                   <li>
-                    <button className="text-slate-400">Features</button>
+                    <a className="text-slate-400 hover:text-violet-900">Features</a>
                   </li>
                   <li className="my-5 md:my-0 md:mx-5">
-                    <button className="text-slate-400">Pricing</button>
+                    <a className="text-slate-400 hover:text-violet-900">Pricing</a>
                   </li>
                   <li>
-                    <button className="text-slate-400">Resources</button>
+                    <a className="text-slate-400 hover:text-violet-900">Resources</a>
                   </li>
                 </ul>
               </nav>
@@ -48,7 +48,7 @@ export default function Navbar() {
                     <button className="text-slate-400">Login</button>
                   </li>
                   <li>
-                    <button className="btn-cta rounded-full">Sign Up</button>
+                    <button className="btn-cta rounded-full hover:active:bg-violet-700">Sign Up</button>
                   </li>
                 </ul>
               </div>
