@@ -4,6 +4,7 @@ import { React, useEffect, useState } from "react";
 import bgDesktop from "../images/bg-shorten-desktop.svg";
 import bgMobile from "../images/bg-shorten-mobile.svg";
 
+
 const getLocalStorage = () => {
   const links = localStorage.getItem("links");
 
